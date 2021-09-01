@@ -45,11 +45,15 @@ const handleRequest = async request => {
             }
             return new Response(body, init)
         }
+        let country = request.cf?.country ? request.cf.country : null
+        let dataCenter = request.cf?.colo ? request.cf.colo : null
+        let ip = request.headers.get("CF-Connecting-IP")
         return new Response(`` +
             `PROXY EVERYWHERE
 Donate: https://paypal.me/hiep12092001/5
-Limits: 100000 requests/day, 1000 requests/10 minutes
-Usage: ?http://example.com/123`.trim(), {
+Limits: 100000 requests/day, 100 requests/minute
+Usage: ?http://example.com/123
+IP: ${ip}\n` + (country ? `Country: ${country}\n` : '\n') + (dataCenter ? `Datacenter: ${dataCenter}` : ''), {
             headers: {
                 "content-type": "text/plain"
             }
