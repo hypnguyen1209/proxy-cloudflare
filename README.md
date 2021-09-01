@@ -1,4 +1,4 @@
-# 👷 `worker-template` Hello World
+# 👷 `proxy-cloudflare` PROXY EVERYWHERE
 
 A template for kick starting a Cloudflare worker project.
 
@@ -9,7 +9,7 @@ A template for kick starting a Cloudflare worker project.
 To generate using [wrangler](https://github.com/cloudflare/wrangler)
 
 ```
-wrangler generate projectname https://github.com/cloudflare/worker-template
+wrangler generate projectname https://github.com/hypnguyen1209/proxy-cloudflare
 ```
 
 Further documentation for Wrangler can be found [here](https://developers.cloudflare.com/workers/tooling/wrangler).
