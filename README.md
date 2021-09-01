@@ -1,8 +1,8 @@
 # 👷 `proxy-cloudflare` PROXY EVERYWHERE
 
-A template for kick starting a Cloudflare worker project.
+Proxy URL Cloudflare useful and free.
 
-[`index.js`](https://github.com/cloudflare/worker-template/blob/master/index.js) is the content of the Workers script.
+[`index.js`](https://github.com/hypnguyen1209/proxy-cloudflare/blob/main/index.js) is the content of the Workers script.
 
 #### Wrangler
 
