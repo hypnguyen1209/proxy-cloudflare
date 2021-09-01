@@ -2,6 +2,8 @@
 
 Proxy URL Cloudflare useful and free.
 
+URL: https://proxy.hypnguyen.workers.dev
+
 [`index.js`](https://github.com/hypnguyen1209/proxy-cloudflare/blob/main/index.js) is the content of the Workers script.
 
 #### Wrangler
